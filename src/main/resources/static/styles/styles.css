@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} */
+/* body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.right-side{
+    background-color: #DECEFA !important;
+}
+hr {
+    /* width: 50%; */
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.edu-item{
+    margin-bottom: 0;
+}
+i{
+    width: 15px;
+}
