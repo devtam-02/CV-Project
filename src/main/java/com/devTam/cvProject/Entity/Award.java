@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 @ToString
 @Entity
-@Table(name = "Awards")
+@Table(name = "awards")
 public class Award {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,6 +21,14 @@ public class Award {
 	private String description;
 	private int year;
 
+	public Award(String name, String organization, String description, int year) {
+		this.name = name;
+		this.organization = organization;
+		this.description = description;
+		this.year = year;
+	}
+
 //	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+//	@JoinColumn(name = "users_id", unique = false)
 //	public Users users;
 }

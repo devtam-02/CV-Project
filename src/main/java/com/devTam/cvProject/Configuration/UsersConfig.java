@@ -11,12 +11,12 @@ import org.springframework.context.annotation.Configuration;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@Configuration
+//@Configuration
 public class UsersConfig {
     @Autowired
     UsersService usersService;
     @Bean
-    CommandLineRunner commandLineRunner(UsersService usersService) {
+    CommandLineRunner commandLineRunnerForUser(UsersService usersService) {
         return args ->{
             Users tam = new Users(
                     "Nguyen Trong Tam",
